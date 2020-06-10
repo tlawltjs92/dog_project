@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#login_form {
+	width: 100%;
+	display: table;
+}
+
+#login_form form {
+	display: table-cell;
+}
+
+#login_form_table {
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#login_form_table input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#login_button {
+	background-color: #7cbebe;
+	color: white;
+}

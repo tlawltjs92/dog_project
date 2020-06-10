@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+#info_container h3{
+	text-align: center;
+	padding: 40px;
+}
+
+#info_container #img{
+	position : relative;
+	width: 30%;
+	height: 500px;
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 80px;
+	left: -60px;
+}
+
+
+#info_container #img img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#dog_info{
+	display: inline-block;
+}
+
+#dog_info_button{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#dog_info_button button{
+	width: 70px;
+	height: 40px;
+	background-color: #7cbebe;
+}

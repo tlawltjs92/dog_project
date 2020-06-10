@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* #side {
+	width: 15%;
+	display: inline-block;
+	float: left;
+}
+ */
+#section_main {
+	width: 100%;
+	display: inline-block;
+	margin-top: 200px;
+	text-align: center;
+}
+
+#side_section {
+	overflow: hidden;
+}
+
+/*아티클 버튼*/
+#articel_button {
+	width: 50px;
+	height: 61.5px;
+	float: left;
+	margin-top: 22px;
+	color: #99a6a2;
+	font-size: 55px;
+}
+
+#article {
+	overflow: hidden;
+	position: absolute;
+	top: 350px;
+}
+/*----------------*/
+/*아티클*/
+#article_main {
+	text-align: center;
+	width: 178.64px;
+	height: 123px;
+	float: left;
+}
+
+#article_main ul {
+	list-style: none;
+	background-color: #f0f0f0;
+}
+
+#article_main #article_a:hover {
+	background-color: #7cbebe;
+	color: white;
+}
+
+#article_main #article_a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	height: 100%;
+	padding: 10px 0px 10px 0px;
+}
+/*------*/
+#info_form {
+	width: 100%;
+	margin: auto;
+}
+
+#info_form_table {
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#info_form_table input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#info_button {
+	background-color: #7cbebe;
+	color: white;
+}
+
+/*----내 정보 폼----*/
+#info_h3 {
+	text-align: center;
+}
+
+#join_form_table {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 460px;
+	border-bottom: 2px solid #f3f3f3;
+	border-left: 2px solid #f3f3f3;
+	border-right: 2px solid #f3f3f3;
+	background-color: #f5f5f5;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#join_form {
+	width: 100%;
+	display: table;
+}
+
+#join_form form {
+	display: table-cell;
+}
+
+#join_form_table {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#join_form_table input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#join_button {
+	background-color: #7cbebe;
+	color: white;
+}
+/*----내 정보 폼----*/

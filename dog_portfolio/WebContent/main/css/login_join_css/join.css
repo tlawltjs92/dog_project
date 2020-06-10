@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#join_form {
+	width: 100%;
+	display: table;
+}
+
+#join_form form {
+	display: table-cell;
+}
+
+#join_form_table {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#join_form_table input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#join_button {
+	background-color: #7cbebe;
+	color: white;
+}

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*컨테이너*/
+section {
+	height: 100%;
+	position: relative;
+}
+
+#main_section_container {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: relative;
+}
+
+#main_section_container>#section_center_img {
+	width: 100%;
+	height: 100%;
+	filter: brightness(85%);
+}
+
+/*---------------*/
+
+/*컨테이너 안*/
+#section_div {
+	height: 100%;
+	position: relative;
+}
+
+#section_div_r_arrow, #section_div_l_arrow {
+	position: absolute;
+	width: 51px;
+	height: 133px;
+}
+
+#section_div_r_arrow {
+	left: 93.78478804634018%;
+	top: 40%;
+}
+
+#section_div_l_arrow {
+	left: 2%;
+	top: 40%;
+}
+
+#section_div_r_arrow>#a_r_arrow, #section_div_l_arrow>#a_l_arrow {
+	color: #efefef;
+	display: none;
+}
+
+#section_div_r_arrow:hover #a_r_arrow {
+	display: block;
+}
+
+#section_div_l_arrow:hover #a_l_arrow {
+	display: block;
+}
+
+#section_div_a {
+	position: absolute;
+	left: 15%;
+	top: 80%;
+}
+
+#section_div_a>#a_dog {
+	background-color: red;
+	padding: 12px 70px 12px 70px;
+	color: white;
+	font-size: 23px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	display: none;
+	text-decoration: none;
+}
+
+#section_div_a>#a_cat {
+	background-color: red;
+	padding: 12px 70px 12px 70px;
+	color: white;
+	font-size: 23px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	display: none;
+	text-decoration: none;
+}
+
+/*---------------*/
