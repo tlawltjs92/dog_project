@@ -4,8 +4,9 @@
 개발환경
 ---
 * Eclipse
-* Oracle
+* MySQL
 * Apache tomcat
+* 네이버 클라우드 플랫폼(서버)
 
 설명
 ---
